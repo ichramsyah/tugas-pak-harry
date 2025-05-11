@@ -14,17 +14,23 @@ Data disimpan dalam array JavaScript di memori, tanpa menggunakan database.
 1. Klon repositori atau salin kode ke folder lokal
 2. Pastikan Node.js sudah terinstal
 3. Install dependencies
-   
+
    ```bash
    npm install
    ```
-4. Jalankan Server
+4. Install express
+
+   ```bash
+   npm init -y
+   npm install express
+   ```
+5. Jalankan Server
   
    ```bash
    node index.js
    ```
    
-5. Jalankan Aplikasi dengan menguji route di Postman.
+6. Jalankan Aplikasi dengan menguji route di Postman.
 
    **GET** - Menampilkan data catatan
    ![image](https://github.com/user-attachments/assets/c7df5905-31cb-4e8d-8d9a-52f18014d918)
@@ -38,7 +44,7 @@ Data disimpan dalam array JavaScript di memori, tanpa menggunakan database.
    **DELETE** - Menghapus data catatan (data dengan id 2)
    ![image](https://github.com/user-attachments/assets/286ae64a-8b1e-4316-9f15-0c030d9744f4)
 
-6. Penanganan error
+7. Penanganan error
 
    **ID Tidak Ditemukan**
    ![image](https://github.com/user-attachments/assets/b14c0bec-b700-4c6c-8b23-41f43b2ccdee)
