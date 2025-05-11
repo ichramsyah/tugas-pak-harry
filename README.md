@@ -61,3 +61,7 @@ Data disimpan dalam array JavaScript di memori, tanpa menggunakan database.
 ### Catatan
 - Semua catatan disimpan sementara di memori (akan hilang setelah server dimatikan).
 - Validasi dilakukan agar setiap catatan memiliki judul dan body.
+- Log rute akan tersimpan di terminal
+  ![image](https://github.com/user-attachments/assets/e5caf2ab-73ec-4094-b889-9ef10d8b6a1d)
+
+
