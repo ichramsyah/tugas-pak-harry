@@ -1,9 +1,14 @@
 ## Aplikasi Catatan
 
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+
 Aplikasi ini adalah RESTful API sederhana menggunakan Express.js yang berfungsi untuk mengelola catatan (notes). Pengguna dapat melihat, menambahkan, memperbarui, dan menghapus catatan. Setiap catatan terdiri dari id, judul, dan body.
 
 ### Deskripsi Aplikasi
+
 Aplikasi ini mensimulasikan sistem pencatatan yang berguna untuk:
+
 - Menyimpan daftar tugas atau to-do list
 - Menyusun jadwal kegiatan
 - Mencatat hal-hal penting
@@ -11,6 +16,7 @@ Aplikasi ini mensimulasikan sistem pencatatan yang berguna untuk:
 Data disimpan dalam array JavaScript di memori, tanpa menggunakan database.
 
 ### Cara Menjalankan Aplikasi
+
 1. Klon repositori atau salin kode ke folder lokal
 2. Pastikan Node.js sudah terinstal
 3. Install dependencies
@@ -18,18 +24,20 @@ Data disimpan dalam array JavaScript di memori, tanpa menggunakan database.
    ```bash
    npm install
    ```
+
 4. Install express
 
    ```bash
    npm init -y
    npm install express
    ```
+
 5. Jalankan Server
-  
+
    ```bash
    node index.js
    ```
-   
+
 6. Jalankan Aplikasi dengan menguji route di Postman.
 
    **GET** - Menampilkan data catatan
@@ -53,15 +61,15 @@ Data disimpan dalam array JavaScript di memori, tanpa menggunakan database.
    ![image](https://github.com/user-attachments/assets/eae71402-d6c1-4dde-b44f-9a1ecb6003e0)
 
 ### Daftar Rute API
-1. **GET**  *http:localhost:3000/notes* (untuk menampilkan data)
-2. **POST**  *http:localhost:3000/add-notes* (untuk membuat data baru)
-3. **PUT**  *http:localhost:3000/update-notes/:id* (untuk mengupdate data)
-4. **DELETE**  *http:localhost:3000/delete-notes/:id* (untuk menghapus data)
+
+1. **GET** _http:localhost:3000/notes_ (untuk menampilkan data)
+2. **POST** _http:localhost:3000/add-notes_ (untuk membuat data baru)
+3. **PUT** _http:localhost:3000/update-notes/:id_ (untuk mengupdate data)
+4. **DELETE** _http:localhost:3000/delete-notes/:id_ (untuk menghapus data)
 
 ### Catatan
+
 - Semua catatan disimpan sementara di memori (akan hilang setelah server dimatikan).
 - Validasi dilakukan agar setiap catatan memiliki judul dan body.
 - Log rute akan tersimpan di terminal
   ![image](https://github.com/user-attachments/assets/e5caf2ab-73ec-4094-b889-9ef10d8b6a1d)
-
-
